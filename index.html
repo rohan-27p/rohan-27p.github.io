@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Rohan Jangam</title>
-<meta name="description" content="Rohan Jangam. ML Analyst at Shipd by Datacurve. I build AI tools, RL environments and backend systems.">
+<meta name="description" content="Rohan Jangam. ML Analyst at Shipd by Datacurve, previously SDE intern at GrabbnGo. I build AI tools, RL environments and backend systems.">
 <meta property="og:title" content="Rohan Jangam">
 <meta property="og:description" content="ML Analyst at Shipd by Datacurve. I build AI tools, RL environments and backend systems.">
 <meta property="og:type" content="profile">
@@ -69,6 +69,14 @@
   a:hover { color: var(--accent); }
   :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 
+  .skills { display: grid; grid-template-columns: max-content 1fr; gap: 6px 20px; margin: 0; }
+  .skills dt { color: var(--accent); }
+  .skills dd { margin: 0; }
+  @media (max-width: 600px) {
+    .skills { grid-template-columns: 1fr; gap: 0; }
+    .skills dd { margin-bottom: 12px; }
+  }
+
   footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--rule); color: var(--dim); font-size: 0.8125rem; }
   footer .meta { margin-top: 0; }
 </style>
@@ -81,7 +89,9 @@
     <p class="role">ML Analyst at Shipd by Datacurve. CS student in Bangalore.</p>
     <p class="intro">I build AI tools, RL environments and backend systems. Most of my time goes to machine learning challenges: fine-tuning, models written from scratch, and seq2seq work across vision, language, tabular and time-series data. Before that I spent six months on a production e-commerce backend.</p>
     <p class="meta">
+      <a href="mailto:rohanjangam27@gmail.com">rohanjangam27@gmail.com</a>
       <a href="https://github.com/rohan-27p">GitHub</a>
+      <a href="https://www.linkedin.com/in/rohanjangam27">LinkedIn</a>
       <a href="https://huggingface.co/LostDecimal">Hugging Face</a>
     </p>
   </header>
@@ -140,10 +150,45 @@
     </div>
   </section>
 
+  <section>
+    <h2>Skills</h2>
+    <dl class="skills">
+      <dt>Languages</dt><dd>C, C++, Python, Java, JavaScript, SQL, Go, Rust</dd>
+      <dt>Backend</dt><dd>Spring Boot, FastAPI, REST APIs, microservices, Kafka, Redis</dd>
+      <dt>Cloud</dt><dd>AWS, GCP, Docker, Kubernetes, GitHub Actions, CI/CD</dd>
+      <dt>Data</dt><dd>PostgreSQL, MySQL, MongoDB, DynamoDB, SQLite</dd>
+      <dt>AI</dt><dd>HF Transformers, ONNX Runtime, FAISS, RAG, agents, MCP</dd>
+      <dt>Security</dt><dd>Burp Suite, Wireshark, Nmap, Ghidra, JADX, OWASP ZAP</dd>
+    </dl>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <div class="item">
+      <div class="item-head"><b>B.Sc. Computer Science</b><span class="at">BITS</span><span class="when">Aug 2024 to Aug 2027</span></div>
+      <p class="what">CGPA 8.24</p>
+    </div>
+    <div class="item">
+      <div class="item-head"><b>Undergraduate Program in Computer Science</b><span class="at">Scaler School of Technology</span><span class="when">Aug 2024 to present</span></div>
+      <p class="what">CGPA 8.16</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Highlights</h2>
+    <ul>
+      <li>First place at the GahanAI AI/ML Hackathon.</li>
+      <li>Finalist at the IIT Bombay Techfest National VoiceAI Hackathon.</li>
+      <li>Codeforces Specialist, max rating 1413. CodeChef 2 star, max rating 1517.</li>
+      <li>Top 3% globally on <a href="https://tryhackme.com/p/0xlostdecimal">TryHackMe</a> with 100+ hands-on labs, and problem setter for Ascent Override, a national CTF.</li>
+    </ul>
+  </section>
+
   <footer>
     <p class="meta">
+      <a href="mailto:rohanjangam27@gmail.com">rohanjangam27@gmail.com</a>
       <a href="https://github.com/rohan-27p">github.com/rohan-27p</a>
-      <a href="https://huggingface.co/LostDecimal">huggingface.co/LostDecimal</a>
+      <a href="https://www.linkedin.com/in/rohanjangam27">linkedin.com/in/rohanjangam27</a>
     </p>
   </footer>
 
