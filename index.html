@@ -4,82 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Rohan Jangam</title>
-<meta name="description" content="Rohan Jangam. ML Analyst at Shipd by Datacurve, previously SDE intern at GrabbnGo. I build AI tools, RL environments and backend systems.">
+<meta name="description" content="Rohan Jangam. ML Analyst at Shipd by Datacurve, previously SDE intern at GrabbnGo. Machine learning, backend systems and application security.">
 <meta property="og:title" content="Rohan Jangam">
-<meta property="og:description" content="ML Analyst at Shipd by Datacurve. I build AI tools, RL environments and backend systems.">
+<meta property="og:description" content="ML Analyst at Shipd by Datacurve. Machine learning, backend systems and application security.">
 <meta property="og:type" content="profile">
-<style>
-  :root {
-    --bg: #fbfbf9;
-    --fg: #16181c;
-    --dim: #5c636e;
-    --rule: #e2e2dc;
-    --accent: #3f7d05;
-    --maxw: 68ch;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #101211;
-      --fg: #e6e9e4;
-      --dim: #949d94;
-      --rule: #272b28;
-      --accent: #a6e22e;
-    }
-  }
-  * { box-sizing: border-box; }
-  html { -webkit-text-size-adjust: 100%; }
-  body {
-    margin: 0;
-    background: var(--bg);
-    color: var(--fg);
-    font: 15px/1.65 ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
-    font-feature-settings: "liga" 0;
-  }
-  .wrap { max-width: var(--maxw); margin: 0 auto; padding: 72px 20px 96px; }
-  @media (max-width: 600px) { .wrap { padding: 44px 18px 64px; } }
-
-  h1 { font-size: 1.5rem; font-weight: 700; letter-spacing: -0.01em; margin: 0 0 6px; }
-  h1::before { content: "$ "; color: var(--accent); font-weight: 400; }
-  .role { color: var(--dim); margin: 0 0 20px; }
-  .intro { margin: 0 0 14px; max-width: 62ch; }
-
-  h2 {
-    font-size: 0.8125rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em;
-    color: var(--dim); margin: 0 0 20px; padding-bottom: 8px; border-bottom: 1px solid var(--rule);
-  }
-  section { margin-top: 56px; }
-
-  .item { margin-bottom: 32px; }
-  .item:last-child { margin-bottom: 0; }
-  .item-head { display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; margin-bottom: 2px; }
-  .item-head b { font-weight: 700; }
-  .at { color: var(--accent); }
-  .when { color: var(--dim); font-size: 0.8125rem; margin-left: auto; }
-  @media (max-width: 600px) { .when { margin-left: 0; width: 100%; } }
-  .what { color: var(--dim); margin: 0 0 8px; }
-
-  ul { margin: 0; padding: 0; list-style: none; }
-  ul li { position: relative; padding-left: 18px; margin-bottom: 6px; }
-  ul li::before { content: "-"; position: absolute; left: 2px; color: var(--accent); }
-
-  .stack { color: var(--dim); font-size: 0.8125rem; margin-top: 8px; }
-  .meta { font-size: 0.8125rem; margin-top: 8px; display: flex; flex-wrap: wrap; gap: 14px; }
-
-  a { color: inherit; text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: 3px; }
-  a:hover { color: var(--accent); }
-  :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
-
-  .skills { display: grid; grid-template-columns: max-content 1fr; gap: 6px 20px; margin: 0; }
-  .skills dt { color: var(--accent); }
-  .skills dd { margin: 0; }
-  @media (max-width: 600px) {
-    .skills { grid-template-columns: 1fr; gap: 0; }
-    .skills dd { margin-bottom: 12px; }
-  }
-
-  footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--rule); color: var(--dim); font-size: 0.8125rem; }
-  footer .meta { margin-top: 0; }
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="wrap">
@@ -87,9 +16,10 @@
   <header>
     <h1>Rohan Jangam</h1>
     <p class="role">ML Analyst at Shipd by Datacurve. CS student in Bangalore.</p>
-    <p class="intro">I build AI tools, RL environments and backend systems. Most of my time goes to machine learning challenges: fine-tuning, models written from scratch, and seq2seq work across vision, language, tabular and time-series data. Before that I spent six months on a production e-commerce backend.</p>
+    <p class="intro">I like exploring several fields of computer science rather than picking one: development, design, security and machine learning. Most of my time goes to machine learning challenges, fine-tuning, models written from scratch and seq2seq work. The rest goes to backend systems and to breaking things on purpose.</p>
     <p class="meta">
       <a href="mailto:rohanjangam27@gmail.com">rohanjangam27@gmail.com</a>
+      <a href="blog/">Blog</a>
       <a href="https://github.com/rohan-27p">GitHub</a>
       <a href="https://www.linkedin.com/in/rohanjangam27">LinkedIn</a>
       <a href="https://huggingface.co/LostDecimal">Hugging Face</a>
@@ -151,6 +81,18 @@
   </section>
 
   <section>
+    <h2>Security</h2>
+    <p class="what">CTFs and reverse engineering are the part of this I do for fun, and the part I am taking most seriously right now.</p>
+    <ul>
+      <li>Mobile application security is the current focus: static analysis, dynamic instrumentation and native reverse engineering of Android and iOS apps, down to the shared libraries.</li>
+      <li>Network and API testing. Authentication and authorization flaws, broken access control, the OWASP Top 10, and the usual work behind an intercepting proxy.</li>
+      <li>Source code review and binary reversing, from decompiled Java to disassembled native code.</li>
+      <li>Top 3% globally on <a href="https://tryhackme.com/p/0xlostdecimal">TryHackMe</a> with 100+ hands-on labs, and problem setter for Ascent Override, a national CTF.</li>
+    </ul>
+    <p class="stack">Burp Suite, Ghidra, JADX, Frida, Objection, apktool, Wireshark, Nmap, sqlmap, OWASP ZAP, Nuclei, ffuf, AFL++</p>
+  </section>
+
+  <section>
     <h2>Skills</h2>
     <dl class="skills">
       <dt>Languages</dt><dd>C, C++, Python, Java, JavaScript, SQL, Go, Rust</dd>
@@ -158,7 +100,7 @@
       <dt>Cloud</dt><dd>AWS, GCP, Docker, Kubernetes, GitHub Actions, CI/CD</dd>
       <dt>Data</dt><dd>PostgreSQL, MySQL, MongoDB, DynamoDB, SQLite</dd>
       <dt>AI</dt><dd>HF Transformers, ONNX Runtime, FAISS, RAG, agents, MCP</dd>
-      <dt>Security</dt><dd>Burp Suite, Wireshark, Nmap, Ghidra, JADX, OWASP ZAP</dd>
+      <dt>Security</dt><dd>Static and dynamic analysis, mobile and native reversing, API testing</dd>
     </dl>
   </section>
 
@@ -180,13 +122,13 @@
       <li>First place at the GahanAI AI/ML Hackathon.</li>
       <li>Finalist at the IIT Bombay Techfest National VoiceAI Hackathon.</li>
       <li>Codeforces Specialist, max rating 1413. CodeChef 2 star, max rating 1517.</li>
-      <li>Top 3% globally on <a href="https://tryhackme.com/p/0xlostdecimal">TryHackMe</a> with 100+ hands-on labs, and problem setter for Ascent Override, a national CTF.</li>
     </ul>
   </section>
 
   <footer>
     <p class="meta">
       <a href="mailto:rohanjangam27@gmail.com">rohanjangam27@gmail.com</a>
+      <a href="blog/">Blog</a>
       <a href="https://github.com/rohan-27p">github.com/rohan-27p</a>
       <a href="https://www.linkedin.com/in/rohanjangam27">linkedin.com/in/rohanjangam27</a>
     </p>
